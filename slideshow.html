@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicking Carousel Page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0)); height: 96.5vh;">
+
+    <div class="container-fluid text-center margin-auto">
+        <div class="offset-4 col-4 mt-4">
+            <h1 class="text-info">Slideshow</h1>
+            <h5 class="text-success">Staff Personnel</h5>
+        </div>
+        
+        <div>
+            <img id="picBackGround" src="" alt=""
+            style="width: 300px; height: 300px; border-radius: 50%; border-style: solid; border-color: rgb(31, 113, 221);">
+            <h5 id="staffName" style="color: white;">Name of Staff</h5>
+            <p id="desc" style="color: white;">Description of Staff</p>
+            <p id="sn" style="color: white;">Serial Number of Staff</p>
+        </div>
+        <div class="container-fluid d-flex">
+            <div id="leftBtn" class="container-fluid btn btn-info" style="width: 100px; margin-left: 400px;">Left</div>
+            <div id="rightBtn" class="container-fluid btn btn-info" style="width: 100px; margin-right: 400px;">Right</div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="slideshow.js"></script>
+</body>
+</html>
